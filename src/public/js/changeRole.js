@@ -10,7 +10,7 @@ btnChangeRole.addEventListener("click", async () => {
     const formData = new FormData(formChangeRol);
 
     const files = await fetch(
-      `http://http://localhost/:8080/api/users/${userId}/documents`,
+      `http://localhost:8080/api/users/${userId}/documents`,
       {
         method: "POST",
         body: formData,
@@ -29,7 +29,7 @@ btnChangeRole.addEventListener("click", async () => {
   }
 
   const roleId = await fetch(
-    `http://http://localhost/:8080/api/users/premium/${userId}`,
+    `http://localhost:8080/api/users/premium/${userId}`,
     {
       method: "PUT",
       headers: {

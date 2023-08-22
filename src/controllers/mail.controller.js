@@ -22,7 +22,7 @@ const sendMailResetPassword = async (req, res) => {
       html: `
       <div>
         <h1>Abre el siguiente enlace para restaurar la contraseña: </h1>
-        <a href="http://http://localhost/:${config.port}/reset-password/${token}/${email}"><button>Restaurar</button></a>
+        <a href="http://localhost:${config.port}/reset-password/${token}/${email}"><button>Restaurar</button></a>
       </div>
       `,
       attachments: [],

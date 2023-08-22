@@ -16,11 +16,11 @@ const getViewAllProducts = async (req, res) => {
     const prevLink =
       result.prevPage === null
         ? null
-        : `http://http://localhost/:8080/api/products?page=${result.page - 1}`;
+        : `http://localhost:8080/api/products?page=${result.page - 1}`;
     const nextLink =
       result.nextPage === null
         ? null
-        : `http://http://localhost/:8080/api/products?page=${result.page + 1}`;
+        : `http://localhost:8080/api/products?page=${result.page + 1}`;
 
     const products = result.docs.map((product) => product.toObject());
     res.render("products", {
@@ -58,11 +58,11 @@ const getViewRealtimeProducts = async (req, res) => {
     const prevLink =
       result.prevPage === null
         ? null
-        : `http://http://localhost/:8080/api/products?page=${result.page - 1}`;
+        : `http://localhost:8080/api/products?page=${result.page - 1}`;
     const nextLink =
       result.nextPage === null
         ? null
-        : `http://http://localhost/:8080/api/products?page=${result.page + 1}`;
+        : `http://localhost:8080/api/products?page=${result.page + 1}`;
 
     const products = result.docs.map((product) => product.toObject());
     res.render("realtimeproducts", {

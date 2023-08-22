@@ -84,7 +84,7 @@ document
       images: [images],
     };
 
-    const response = await fetch("http://http://localhost/:8080/api/products", {
+    const response = await fetch("http://localhost:8080/api/products", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -106,7 +106,7 @@ document
     event.preventDefault();
     const productId = document.getElementById("productId").value;
     const response = await fetch(
-      `http://http://localhost/:8080/api/products/${productId}`,
+      `http://localhost:8080/api/products/${productId}`,
       {
         method: "DELETE",
       }

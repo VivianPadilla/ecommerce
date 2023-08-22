@@ -7,7 +7,7 @@ registerUser.addEventListener("submit", async (event) => {
   const email = document.getElementById("email").value;
 
   const responseFindEmail = await fetch(
-    `http://http://localhost/:8080/api/sessions/${email}`,
+    `http://localhost:8080/api/sessions/${email}`,
     {
       method: "GET",
     }
@@ -20,7 +20,7 @@ registerUser.addEventListener("submit", async (event) => {
   }
 
   const token = await fetch(
-    `http://http://localhost/:8080/api/tokens`,
+    `http://localhost:8080/api/tokens`,
     {
       method: "POST",
       headers: {
@@ -32,7 +32,7 @@ registerUser.addEventListener("submit", async (event) => {
   const tokenResponse = await token.json();
 
   const response = await fetch(
-    `http://http://localhost/:8080/api/mails/mail-reset-password/${email}/${tokenResponse.token}`,
+    `http://localhost:8080/api/mails/mail-reset-password/${email}/${tokenResponse.token}`,
     {
       method: "GET",
     }

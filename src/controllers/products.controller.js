@@ -21,11 +21,11 @@ const getProducts = async (req, res) => {
     const prevLink =
       products.prevPage === null
         ? null
-        : `http://http://localhost/:8080/api/products?page=${products.page - 1}`;
+        : `http://localhost:8080/api/products?page=${products.page - 1}`;
     const nextLink =
       products.nextPage === null
         ? null
-        : `http://http://localhost/:8080/api/products?page=${products.page + 1}`;
+        : `http://localhost:8080/api/products?page=${products.page + 1}`;
     return res.status(200).send({
       status: "success",
       payload: products.docs,

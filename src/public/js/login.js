@@ -12,7 +12,7 @@ formLogin.addEventListener('submit', async (e) => {
     password: password.value,
   }
 
-  const response = await fetch("http://http://localhost/:8080/api/sessions/login", {
+  const response = await fetch("http://localhost:8080/api/sessions/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

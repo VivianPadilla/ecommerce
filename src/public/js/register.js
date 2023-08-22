@@ -11,7 +11,7 @@ registerUser.addEventListener('submit', async (event) => {
   event.preventDefault();
 
   // cart
-  const cartId = await fetch("http://http://localhost/:8080/api/carts", {
+  const cartId = await fetch("http://localhost:8080/api/carts", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -31,7 +31,7 @@ registerUser.addEventListener('submit', async (event) => {
   }
   console.log('userRegister', userRegister)
 
-  const response = await fetch("http://http://localhost/:8080/api/sessions/register", {
+  const response = await fetch("http://localhost:8080/api/sessions/register", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

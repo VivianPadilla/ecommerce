@@ -14,12 +14,12 @@ prevPageButton.disabled = !hasPrevPage;
 nextPageButton.disabled = !hasNextPage;
 
 prevPageButton.addEventListener("click", () => {
-  window.location.href = `http://http://localhost/:8080/products?page=${parseInt(page) - 1
+  window.location.href = `http://localhost:8080/products?page=${parseInt(page) - 1
     }`;
 });
 
 nextPageButton.addEventListener("click", () => {
-  window.location.href = `http://http://localhost/:8080/products?page=${parseInt(page) + 1
+  window.location.href = `http://localhost:8080/products?page=${parseInt(page) + 1
     }`;
 });
 
@@ -27,7 +27,7 @@ addToCartButton.forEach((button) => {
   button.addEventListener("click", async () => {
     const productId = button.parentNode.getAttribute("data-id");
     const response = await fetch(
-      `http://http://localhost/:8080/api/carts/${cartId}/product/${productId}`,
+      `http://localhost:8080/api/carts/${cartId}/product/${productId}`,
       {
         method: "POST",
         headers: {
@@ -44,7 +44,7 @@ addToCartButton.forEach((button) => {
 });
 
 document.getElementById("buy-now").addEventListener("click", async () => {
-  const response = await fetch(`http://http://localhost/:8080/api/carts/${cartId}/purchase`, {
+  const response = await fetch(`http://localhost:8080/api/carts/${cartId}/purchase`, {
     method: "POST",
   });
   if (response.status === 200) {
@@ -53,7 +53,7 @@ document.getElementById("buy-now").addEventListener("click", async () => {
     alert("Error al realizar la compra");
   }
 
-  const responseTicket = await fetch(`http://http://localhost/:8080/api/tickets`, {
+  const responseTicket = await fetch(`http://localhost:8080/api/tickets`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
