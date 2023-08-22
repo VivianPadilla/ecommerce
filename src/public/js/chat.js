@@ -3,7 +3,8 @@ const socket = io();
 let user = null;
 const message = document.querySelector("#message");
 const sendMessage = document.querySelector('#sendMessage')
-const formChat = document.querySelector("#formChat");
+const formChat = document.querySelector("#formChat")
+const products = document.querySelector('#products')
 
 Swal.fire({
   title: 'Ingresa tu nombre',
@@ -55,4 +56,8 @@ socket.on("messagesLogs", (data) => {
   });
   console.log('messages', messages)
   log.innerHTML = messages;
+});
+
+products.addEventListener("click", () => {
+  window.location.replace("/products");
 });

@@ -1,4 +1,5 @@
 const cartId = document.currentScript.getAttribute("data-user-cart-id");
+const products = document.querySelector('#products')
 
 document.getElementById("buy-now").addEventListener("click", async () => {
 	const response = await fetch(`http://localhost:8080/api/carts/${cartId}/purchase`, {
@@ -21,4 +22,8 @@ document.getElementById("buy-now").addEventListener("click", async () => {
 	} else {
 		alert("Error al crear el ticket");
 	}
+});
+
+products.addEventListener("click", () => {
+	window.location.replace("/products");
 });
