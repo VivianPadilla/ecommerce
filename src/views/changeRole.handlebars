@@ -1,0 +1,65 @@
+<div class="m-0 vh-100 row justify-content-center aling-items-center">
+  <div class="col-auto p-5">
+    <div class="container change-rol">
+      <div class="row">
+        <div class="col-sm contenedor">
+          <h2 class="mb-5">Cambia tu Rol</h2>
+          <p class="mb-4">Necesitas llenar esta información para cambiar tu rol a Premium.</p>
+          <form id="form-change-role" enctype="multipart/form-data">
+            <div class="mb-3">
+              <label for="file-profile-picture" class="form-label">Imagen de perfil</label>
+              <input class="form-control h-0 p-0" type="file" id="file-profile-picture" name="file-profile-picture">
+            </div>
+            <div class="mb-3">
+              <label for="file-product-picture">Imagen del producto:</label>
+              <input
+                type="file"
+                class="form-control h-0 p-0"
+                id="file-product-picture"
+                name="file-product-picture"
+              />
+            </div>
+            <h3 class="my-5">Documentación: </h3>
+            <div class="mb-3">
+              <label for="file-identification">Identificación:</label>
+              <input
+                type="file"
+                class="form-control h-0 p-0"
+                id="file-identification"
+                name="file-identification"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="file-address">Comprobante de domicilio:</label>
+              <input
+                type="file"
+                class="form-control h-0 p-0"
+                id="file-address"
+                name="file-address"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="file-statement-account">Comprobante de estado de cuenta:</label>
+              <input
+                type="file" 
+                class="form-control h-0 p-0"
+                id="file-statement-account"
+                name="file-statement-account"
+              />
+            </div>
+            <p id="status-1" style="color: red;"></p>
+          </form>
+
+          <button class="btn btn-primary mb-3" id="btn-change-role">Cambia tu Rol</button>
+          <p id="status-2" style="color: red;"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script
+  src="/js/changeRole.js"
+  data-user-id="{{userId}}"
+  data-user-role="{{userRole}}"
+></script>

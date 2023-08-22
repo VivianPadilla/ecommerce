@@ -1,0 +1,46 @@
+2023-08-21T01:59:44.637Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:00:00.520Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:01:47.672Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:02:58.266Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:03:31.896Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:04:02.936Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:04:14.267Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:05:34.089Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:06:11.254Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta CastError: Cast to string failed for value "{}" (type Object) at path "category" for model "Products"[22m[39m
+2023-08-21T02:43:57.702Z [[31M[1MFATAL[22M[39M]: [31m[1mError en views.controller getAllProducts():  productManager.getAllProducts is not a function[22m[39m
+2023-08-21T02:44:18.277Z [[31M[1MFATAL[22M[39M]: [31m[1mError en views.controller getAllProducts():  productManager.getAllProducts is not a function[22m[39m
+2023-08-21T16:12:12.137Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:12:15.931Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:15:39.911Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:43:57.646Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:45:49.468Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:47:07.914Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:48:34.063Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:49:39.893Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:52:12.939Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:57:10.424Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:02:06.089Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:09:10.042Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:13:37.847Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:14:23.994Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:14:42.205Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:16:50.144Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:18:06.678Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:18:38.688Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T18:05:05.213Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T20:53:07.017Z [[31MERROR[39M]: [31mEsto es un mensaje de error (error).[39m
+2023-08-21T20:53:07.018Z [[31M[1MFATAL[22M[39M]: [31m[1mEsto es un mensaje de fatal (fatal).[22m[39m
+2023-08-21T21:05:25.563Z [[31MERROR[39M]: [31mError en views.controller addProduct():  Cannot read properties of undefined (reading 'email')[39m
+2023-08-21T21:11:27.979Z [[31MERROR[39M]: [31mError en products.controller addProduct():  productManager.addOneProduct is not a function[39m
+2023-08-21T22:03:44.761Z [[31MERROR[39M]: [31mError en productManager addProduct():  E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 5 }[39m
+2023-08-21T22:03:44.763Z [[31MERROR[39M]: [31mError en products.controller addProduct():  MongoServerError: E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 5 }[39m
+2023-08-21T22:14:33.008Z [[31MERROR[39M]: [31mError en productManager addProduct():  E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 12 }[39m
+2023-08-21T22:14:33.009Z [[31MERROR[39M]: [31mError en products.controller addProduct():  MongoServerError: E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 12 }[39m
+2023-08-21T22:14:42.301Z [[31MERROR[39M]: [31mError en productManager addProduct():  E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 12 }[39m
+2023-08-21T22:14:42.303Z [[31MERROR[39M]: [31mError en products.controller addProduct():  MongoServerError: E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 12 }[39m
+2023-08-21T22:20:10.709Z [[31MERROR[39M]: [31mError en productManager deleteProduct():  El producto no existe[39m
+2023-08-21T22:20:10.711Z [[31MERROR[39M]: [31mError en products.controller deleteProduct():  Error: El producto no existe[39m
+2023-08-22T00:14:01.278Z [[31MERROR[39M]: [31mError en productManager getProducts():  Invalid sort value: { sort: [object Object] }[39m
+2023-08-22T00:14:01.279Z [[31MERROR[39M]: [31mError en views.controller getAllProducts():  TypeError: Invalid sort value: { sort: [object Object] }[39m
+2023-08-22T03:52:27.993Z [[31MERROR[39M]: [31mUps! El usuario no existe[39m
+2023-08-22T03:52:35.904Z [[31MERROR[39M]: [31mUps! El usuario no existe[39m

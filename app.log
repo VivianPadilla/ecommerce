@@ -1,0 +1,782 @@
+2023-08-21T01:59:28.268Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T01:59:44.637Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:00:00.520Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:00:43.923Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:01:47.672Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:02:42.085Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:02:42.921Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:02:46.873Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:02:47.002Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:02:58.266Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:03:17.769Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:03:17.904Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:03:31.896Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:04:02.936Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:04:09.997Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:04:10.890Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:04:14.267Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:05:16.732Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:05:17.074Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:05:34.089Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta[22m[39m
+2023-08-21T02:06:07.839Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:06:07.945Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:06:11.254Z [[31M[1MFATAL[22M[39M]: [31m[1mno es posible acceder a la ruta CastError: Cast to string failed for value "{}" (type Object) at path "category" for model "Products"[22m[39m
+2023-08-21T02:06:16.338Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:06:16.929Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:07:26.864Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:07:26.942Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:08:07.943Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:08:08.923Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:08:11.519Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:08:11.907Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:08:18.345Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:08:18.922Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:09:07.405Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:09:07.904Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:09:43.608Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:09:43.922Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:10:59.765Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:10:59.921Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:13:47.009Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:13:47.947Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:13:51.651Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:13:51.906Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:43:36.894Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:43:57.702Z [[31M[1MFATAL[22M[39M]: [31m[1mError en views.controller getAllProducts():  productManager.getAllProducts is not a function[22m[39m
+2023-08-21T02:44:18.277Z [[31M[1MFATAL[22M[39M]: [31m[1mError en views.controller getAllProducts():  productManager.getAllProducts is not a function[22m[39m
+2023-08-21T02:44:43.950Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:45:14.175Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:45:14.978Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:45:56.719Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:45:56.933Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:46:17.025Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:46:17.927Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:46:25.123Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:46:25.931Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:46:42.376Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:46:42.945Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T02:46:56.666Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T02:46:57.054Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T03:10:55.929Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T03:11:36.696Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T03:17:49.301Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T03:19:28.071Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T03:20:42.714Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T13:47:19.043Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T14:14:31.437Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T14:39:57.032Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T15:48:57.408Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T15:52:04.762Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T15:52:23.107Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T15:52:48.092Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T15:59:53.143Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:02:46.868Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:03:06.395Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:04:40.473Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:06:06.439Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:06:32.411Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:08:54.690Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:09:50.598Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:11:19.216Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:11:48.987Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:12:12.137Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:12:15.931Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:15:07.091Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:15:30.932Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:15:39.911Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:16:02.012Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:16:56.238Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:23:49.332Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:27:07.945Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:39:52.270Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:42:42.046Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:43:18.014Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:43:31.551Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:43:46.787Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:43:57.646Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:44:38.774Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:45:35.138Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:45:49.468Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:46:46.973Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:47:07.914Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:47:42.959Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:48:34.063Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:49:39.893Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:51:21.250Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:52:02.483Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:52:12.939Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T16:57:01.110Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T16:57:10.424Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:01:22.143Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T17:01:58.735Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T17:02:06.089Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:09:01.602Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T17:09:10.042Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:09:55.577Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T17:13:37.847Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:14:23.994Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:14:42.205Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:16:38.134Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T17:16:50.144Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:17:44.307Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T17:18:06.678Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:18:38.688Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T17:20:43.192Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T17:22:16.098Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T17:26:17.505Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T17:26:34.900Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T18:05:05.213Z [[31MERROR[39M]: [31mEl usuario no existe[39m
+2023-08-21T19:49:14.743Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:49:42.497Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:50:19.038Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:50:39.471Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:50:45.753Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:50:52.980Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:54:34.715Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:55:01.008Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:55:01.282Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T19:58:04.557Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:58:07.680Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T19:58:52.289Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:58:52.709Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T19:59:09.272Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:59:09.660Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T19:59:36.630Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T19:59:37.625Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:00:58.010Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T20:00:58.662Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:02:07.092Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T20:02:07.643Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:04:49.294Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:06:16.028Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T20:06:16.640Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:09:00.666Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:09:16.529Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:10:17.505Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:11:08.790Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:13:58.677Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T20:13:59.651Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:15:43.912Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T20:15:44.675Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:21:02.858Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T20:21:04.436Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:22:16.320Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:23:18.597Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:23:37.997Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T20:23:38.105Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:25:08.967Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:27:49.901Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:29:12.505Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:30:10.532Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:31:20.416Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:40:41.001Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:41:17.635Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:41:50.262Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:42:08.906Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:53:07.014Z [[32MINFO[39M]: [32mEsto es un mensaje informativo (info).[39m
+2023-08-21T20:53:07.016Z [[33MWARNING[39M]: [33mEsto es un mensaje de advertencia (warning).[39m
+2023-08-21T20:53:07.017Z [[31MERROR[39M]: [31mEsto es un mensaje de error (error).[39m
+2023-08-21T20:53:07.018Z [[31M[1MFATAL[22M[39M]: [31m[1mEsto es un mensaje de fatal (fatal).[22m[39m
+2023-08-21T20:55:34.429Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T20:55:34.671Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T20:55:39.357Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T20:56:01.646Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:02:28.497Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:02:28.864Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:02:31.681Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:03:13.583Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:03:19.920Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:03:20.313Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:03:21.072Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:03:58.113Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:04:18.173Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:04:18.374Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:04:19.782Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:04:39.268Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:04:41.171Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:05:25.563Z [[31MERROR[39M]: [31mError en views.controller addProduct():  Cannot read properties of undefined (reading 'email')[39m
+2023-08-21T21:05:51.358Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:06:20.764Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:06:21.500Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:06:24.115Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:06:32.335Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:07:12.984Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:07:27.181Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:07:27.412Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:07:27.427Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:08:28.985Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:08:48.055Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:08:48.203Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:08:48.231Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:09:39.621Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:09:45.500Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:09:49.982Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:10:06.455Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:10:11.939Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:10:29.417Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:10:50.269Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:11:20.780Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:11:27.979Z [[31MERROR[39M]: [31mError en products.controller addProduct():  productManager.addOneProduct is not a function[39m
+2023-08-21T21:12:04.168Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:12:17.061Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:13:20.897Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:13:36.393Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:13:36.558Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:13:36.565Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:14:10.995Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:14:25.240Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:14:45.272Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:15:23.399Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:15:23.990Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:16:45.830Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:20:04.751Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:21:02.083Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:21:14.730Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:22:06.272Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:22:23.332Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:23:07.178Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:23:33.473Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:24:08.530Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:26:07.139Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:26:09.650Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:26:09.826Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:26:09.883Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:26:54.825Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:27:24.381Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:27:51.352Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:27:51.391Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:27:51.494Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:29:00.044Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:29:00.287Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:29:00.415Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:29:06.079Z [[32MINFO[39M]: [32m----> products: [39m
+2023-08-21T21:29:06.632Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:29:12.647Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:29:12.718Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:29:12.882Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:29:22.287Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:29:22.578Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:29:23.110Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:29:27.172Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:29:37.226Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:29:37.390Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:29:37.471Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:30:33.819Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:30:33.907Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:30:33.991Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:31:34.416Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:31:34.450Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:31:34.528Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:32:57.147Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:32:57.262Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:32:57.372Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:33:06.836Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:33:06.974Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:33:07.115Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:33:29.618Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:33:29.761Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:33:29.809Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:33:47.209Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:33:47.380Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:33:47.449Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:33:51.499Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:33:51.641Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:33:51.777Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:34:10.687Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:34:19.260Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:34:52.231Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:36:40.397Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:36:40.633Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:36:40.690Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:36:49.011Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:36:49.122Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:36:54.496Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:37:34.889Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:37:35.037Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:37:36.080Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:37:50.543Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:37:50.662Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:37:52.779Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:37:56.243Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:38:19.377Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:38:19.504Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:38:19.557Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:38:26.213Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:38:26.385Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:38:26.483Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:38:53.610Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:38:53.772Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:38:53.838Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:38:56.626Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:39:08.175Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:39:08.345Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:39:08.519Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:39:30.064Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:39:30.247Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:39:30.416Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:39:50.175Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:39:57.919Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:40:45.877Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:40:45.989Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:40:46.119Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:40:57.796Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:40:57.958Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:40:58.071Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:42:56.662Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:42:57.294Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:42:58.111Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:43:34.664Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:44:42.528Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:44:42.658Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:44:42.716Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:45:37.021Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:45:37.145Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:45:37.180Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:45:43.024Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:45:43.134Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:45:43.688Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:46:17.252Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:47:53.997Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:47:56.803Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:50:25.894Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:50:31.674Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:51:38.327Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:52:00.657Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:52:00.757Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:52:19.445Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:52:20.801Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:52:39.042Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:54:58.316Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:54:59.520Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:55:07.170Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:57:36.997Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:57:46.699Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:57:47.547Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:59:06.297Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:59:14.377Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:59:16.355Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T21:59:53.144Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T21:59:53.513Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:00:01.332Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:00:01.443Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:00:07.009Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:00:10.752Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:01:34.046Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:01:39.328Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:02:08.436Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:02:14.000Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:02:31.658Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:02:41.872Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:02:42.055Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:02:42.116Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:03:08.006Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:03:44.761Z [[31MERROR[39M]: [31mError en productManager addProduct():  E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 5 }[39m
+2023-08-21T22:03:44.763Z [[31MERROR[39M]: [31mError en products.controller addProduct():  MongoServerError: E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 5 }[39m
+2023-08-21T22:04:52.076Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:05:43.962Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:08:10.634Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:08:17.711Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:08:20.876Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:08:56.242Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:08:56.343Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:08:56.368Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:08:59.075Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:09:05.518Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:09:05.705Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:09:05.810Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:09:10.653Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:09:10.888Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:09:10.903Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:10:44.641Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:10:44.733Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:10:45.113Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:11:23.585Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:11:35.440Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:12:13.368Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:12:14.042Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:12:24.679Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:12:24.729Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:12:33.293Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:12:33.516Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:13:33.808Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:14:33.008Z [[31MERROR[39M]: [31mError en productManager addProduct():  E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 12 }[39m
+2023-08-21T22:14:33.009Z [[31MERROR[39M]: [31mError en products.controller addProduct():  MongoServerError: E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 12 }[39m
+2023-08-21T22:14:42.301Z [[31MERROR[39M]: [31mError en productManager addProduct():  E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 12 }[39m
+2023-08-21T22:14:42.303Z [[31MERROR[39M]: [31mError en products.controller addProduct():  MongoServerError: E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: 12 }[39m
+2023-08-21T22:15:15.353Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:15:58.614Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:16:25.688Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:16:29.286Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:16:30.908Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:16:37.382Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:16:41.612Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:17:49.442Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:17:54.450Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:17:57.593Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:18:32.374Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:18:34.058Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:18:49.310Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:18:52.789Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:19:27.589Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:20:10.709Z [[31MERROR[39M]: [31mError en productManager deleteProduct():  El producto no existe[39m
+2023-08-21T22:20:10.711Z [[31MERROR[39M]: [31mError en products.controller deleteProduct():  Error: El producto no existe[39m
+2023-08-21T22:20:56.152Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:20:56.380Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:20:56.387Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:21:04.118Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:21:26.100Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:21:26.133Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:21:26.358Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:21:29.830Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:21:30.042Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:21:30.115Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:21:37.215Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:21:37.407Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:21:37.458Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:26:55.663Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:26:55.895Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:26:55.910Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:28:23.422Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:28:23.589Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:28:24.111Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:31:12.507Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:31:12.662Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:31:12.663Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:31:29.395Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:31:29.562Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:31:29.615Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:31:42.072Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:31:42.133Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:31:42.259Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:32:14.171Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:32:14.291Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:32:14.373Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:33:44.774Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:33:45.019Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:33:45.113Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:34:18.507Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T22:34:18.598Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:34:18.679Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:34:51.719Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:34:59.536Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:37:49.106Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T22:37:54.919Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:24:06.266Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:24:07.353Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:24:07.452Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:24:12.553Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:24:12.671Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:24:12.755Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:25:21.705Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:25:37.092Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:26:31.400Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:26:36.095Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:26:39.567Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:27:18.447Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:27:18.551Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:27:18.738Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:27:49.924Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:28:31.137Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:28:31.196Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:28:31.236Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:29:40.192Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:29:40.399Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:29:40.413Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:30:08.363Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:30:08.404Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:30:51.749Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:31:09.111Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:31:09.206Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:31:15.533Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:31:58.748Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:31:58.886Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:31:59.109Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:32:22.219Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:32:22.390Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:32:22.794Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:32:54.006Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:32:54.482Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:32:55.953Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:32:56.838Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:33:29.525Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:33:29.878Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:33:32.112Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:35:19.421Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:35:20.499Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:35:22.072Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:37:08.750Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:37:08.908Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:37:16.148Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:37:25.138Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:37:45.568Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:37:45.916Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:37:50.455Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:37:58.072Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:40:14.526Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:40:14.653Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:40:14.880Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:41:22.062Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:41:22.146Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:41:22.181Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:42:40.962Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:43:35.478Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:44:51.000Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:45:08.263Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:45:11.107Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:46:20.338Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:46:21.488Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:47:45.446Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:47:45.902Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:50:38.907Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:50:40.722Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:50:46.923Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:52:16.543Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:52:16.912Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:52:17.100Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:52:26.790Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:53:12.248Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:53:12.433Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:53:12.894Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:53:58.302Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:53:59.129Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:53:59.496Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:54:23.593Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:54:23.706Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:54:23.768Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:54:29.772Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:54:41.210Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:56:41.512Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:56:47.891Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:57:07.728Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:57:21.328Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:57:28.162Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:57:35.025Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:57:54.495Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:58:03.816Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:59:46.641Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-21T23:59:51.099Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-21T23:59:54.714Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:00:06.649Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:02:31.099Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:02:31.583Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:02:32.403Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:02:35.063Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:03:23.861Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:03:24.018Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:03:24.031Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:03:26.784Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:03:50.465Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:03:51.639Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:03:52.927Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:04:51.565Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:04:51.680Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:04:51.914Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:05:47.987Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:05:48.149Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:05:48.156Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:05:54.585Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:05:54.753Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:05:54.762Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:06:04.185Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:06:04.299Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:06:04.394Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:06:11.624Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:07:44.378Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:08:42.387Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:09:24.775Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:09:45.128Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:10:29.125Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:13:40.007Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:13:55.833Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:13:55.908Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:13:56.024Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:14:01.278Z [[31MERROR[39M]: [31mError en productManager getProducts():  Invalid sort value: { sort: [object Object] }[39m
+2023-08-22T00:14:01.279Z [[31MERROR[39M]: [31mError en views.controller getAllProducts():  TypeError: Invalid sort value: { sort: [object Object] }[39m
+2023-08-22T00:14:34.370Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:14:34.480Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:14:34.514Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:15:57.204Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:16:46.315Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:16:46.390Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:16:46.500Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:17:36.911Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:17:37.027Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:17:37.055Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:19:02.232Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:20:24.060Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:20:24.128Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:20:28.214Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:20:32.724Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:20:49.309Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:20:58.372Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:20:58.533Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:21:01.143Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:21:04.807Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:21:11.801Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:21:19.935Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:21:29.631Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:25:38.119Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:25:38.275Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:25:56.665Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:32:57.811Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:35:01.412Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:35:01.783Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:35:53.295Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:35:53.777Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:36:37.384Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:36:37.574Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:36:59.194Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:36:59.775Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:38:01.112Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:38:02.411Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:38:41.266Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:38:41.794Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:39:04.560Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:39:04.790Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:39:09.212Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:39:09.298Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:39:11.748Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:39:11.837Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:39:24.059Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:39:24.164Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:40:43.144Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:40:43.424Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:41:11.767Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:41:11.967Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:41:17.637Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:41:17.975Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:41:34.799Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:41:34.928Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:42:04.614Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:42:04.794Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:42:49.517Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:42:49.589Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:43:00.067Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:43:00.176Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:43:12.652Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:43:13.031Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:43:34.226Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:43:44.379Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:43:52.976Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:43:53.077Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:43:57.432Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:43:57.829Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:44:01.983Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:44:02.758Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:44:18.996Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:44:19.775Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:44:35.800Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:44:38.580Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:45:12.413Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:45:12.767Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:47:51.848Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:47:52.408Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:49:49.098Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:49:49.193Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:51:06.408Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:51:06.580Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:51:22.575Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:51:22.807Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:51:37.552Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:51:37.978Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:51:56.512Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:51:56.794Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:52:05.951Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:52:06.085Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:52:51.769Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:52:59.769Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T00:53:09.797Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:55:18.976Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:55:54.849Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:55:58.886Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:56:10.857Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:56:18.628Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:56:20.980Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:56:28.477Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:56:39.088Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:57:19.944Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:57:33.778Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T00:59:44.113Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:00:54.629Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:03:36.223Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:08:34.429Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:10:25.560Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:10:37.006Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:11:29.922Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:11:35.229Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:12:01.205Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:12:25.653Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:12:35.297Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:12:38.803Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:13:24.695Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:13:52.522Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:14:04.198Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T01:15:34.223Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:17:14.252Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:24:21.345Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T01:25:31.069Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T01:29:19.204Z [[32MINFO[39M]: [32mNuevo cliente conectado[39m
+2023-08-22T01:36:38.232Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:37:09.003Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:39:42.830Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:40:56.460Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:42:24.123Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:42:58.496Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:45:15.032Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T01:58:08.614Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:14:07.665Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:14:53.049Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:17:50.121Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:21:11.185Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:23:33.435Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:24:52.612Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:25:17.832Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:25:31.595Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:27:00.206Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:27:40.394Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:27:52.824Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:27:58.021Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:28:10.816Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:29:55.388Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:30:18.428Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:31:00.518Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T02:31:05.990Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:04:50.850Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:05:37.243Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:11:08.406Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:24:56.485Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:25:37.112Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:50:09.864Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:51:09.501Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:52:01.533Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:52:08.662Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:52:23.476Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:52:27.993Z [[31MERROR[39M]: [31mUps! El usuario no existe[39m
+2023-08-22T03:52:35.904Z [[31MERROR[39M]: [31mUps! El usuario no existe[39m
+2023-08-22T03:54:53.488Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:57:01.595Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:58:19.931Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T03:59:20.484Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:00:22.125Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:00:36.135Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:06:59.066Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:09:17.610Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:11:08.959Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:11:50.796Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:18:44.973Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:22:11.222Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:22:23.997Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:22:31.775Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:22:51.234Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:23:18.558Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:23:46.184Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:23:51.826Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:24:22.451Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:25:45.400Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:26:10.646Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:26:25.812Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:26:54.977Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:27:10.858Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:28:10.471Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:28:32.368Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m
+2023-08-22T04:30:25.715Z [[32MINFO[39M]: [32mServidor arriba en el puerto 8080![39m

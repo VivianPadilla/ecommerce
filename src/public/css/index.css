@@ -1,0 +1,40 @@
+/*** realTimeProducts***/
+h2 {
+    margin: 26px 0px 43px 0px;
+    text-align: center;
+}
+
+.contenedor {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 42px 19px;
+    width: 361px !important;
+}
+
+.cont-register {
+    margin-right: 0px;
+}
+
+/*** register ***/
+.register {
+    width: 684px;
+}
+
+/*** chat ***/
+#chat2 .form-control {
+    border-color: transparent;
+}
+
+#chat2 .form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Cupcake de Chocolate",
+    "description": "Cupcake de Chocolate",
+    "price": 15000,
+    "category": "postres",
+    "code": 1,
+    "stock": 10,
+    "thumbnail": ["Sin imagen"],
+    "status": true,
+    "id": 1
+  },
+  {
+    "title": "Cupcake de Fresa",
+    "description": "Cupcake de Fresa",
+    "price": 20000,
+    "category": "postres",
+    "code": 2,
+    "stock": 3,
+    "thumbnail": ["Sin imagen"],
+    "status": true,
+    "id": 2
+  }
+]

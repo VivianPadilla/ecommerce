@@ -1,0 +1,25 @@
+{{#if products.length}}
+{{#each products}}
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="{{this.thumbnails}}" class="img-fluid rounded-start" alt="imagen">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title"> {{this.title}} </h5>
+                <p class="card-text"> {{this.description}} </p>
+                <p class="card-text"> <strong>Código: </strong> {{this.code}} </p>
+                <p class="card-text"> <strong>Precio: </strong> {{this.price}} </p>
+                <p class="card-text"> <strong>Stock: </strong> {{this.stock}} </p>
+                <p class="card-text"> <strong>Stock: </strong> {{this._id}} </p>
+                <p class="card-text"><small class="text-body-secondary"> <strong>Categoria: </strong>
+                        {{this.category}}</small></p>
+            </div>
+        </div>
+    </div>
+</div>
+{{/each}}
+{{else}}
+<p>Lo sentimos, se han agotado el producto 😔</p>
+{{/if}}
