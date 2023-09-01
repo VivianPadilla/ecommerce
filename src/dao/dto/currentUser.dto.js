@@ -5,6 +5,6 @@ export default class CurrentUserDTO {
     this.lastName = currentUser.lastName;
     this.email = currentUser.email;
     this.cart = currentUser.cart;
-    this.role = currentUser.role;
+    this.rol = currentUser.rol;
   }
 }

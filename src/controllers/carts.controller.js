@@ -1,4 +1,5 @@
 import cartsManager from "../dao/dataBaseManager/cartManager.js";
+import logger from "../helper/logger/index.js";
 
 const getCarts = async (req, res) => {
   try {

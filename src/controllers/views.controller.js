@@ -16,11 +16,11 @@ const getViewAllProducts = async (req, res) => {
     const prevLink =
       result.prevPage === null
         ? null
-        : `http://localhost:8080/api/products?page=${result.page - 1}`;
+        : `/api/products?page=${result.page - 1}`;
     const nextLink =
       result.nextPage === null
         ? null
-        : `http://localhost:8080/api/products?page=${result.page + 1}`;
+        : `/api/products?page=${result.page + 1}`;
 
     const products = result.docs.map((product) => product.toObject());
     res.render("products", {
@@ -58,11 +58,11 @@ const getViewRealtimeProducts = async (req, res) => {
     const prevLink =
       result.prevPage === null
         ? null
-        : `http://localhost:8080/api/products?page=${result.page - 1}`;
+        : `/api/products?page=${result.page - 1}`;
     const nextLink =
       result.nextPage === null
         ? null
-        : `http://localhost:8080/api/products?page=${result.page + 1}`;
+        : `/api/products?page=${result.page + 1}`;
 
     const products = result.docs.map((product) => product.toObject());
     res.render("realtimeproducts", {
@@ -92,7 +92,6 @@ const getViewChat = async (req, res) => {
 const getViewCart = async (req, res) => {
   const cartId = req.params.cid;
   const carts = await cartManager.getProductsFromCart(cartId);
-  console.log("🚀 ~ file: views.controller.js:95 ~ getViewCart ~ carts:", carts)
 
   res.render("carts", {
     carts,
@@ -139,10 +138,10 @@ const getViewResetPassword = (req, res) => {
   });
 };
 
-const getViewChangeRole = (req, res) => {
+const getViewChangeRol = (req, res) => {
   res.render("changeRole", {
     userId: req.session.user.id,
-    userRole: req.session.user.role,
+    userRol: req.session.user.rol,
     title: "Cambiar rol del usuario",
   });
 };
@@ -157,5 +156,5 @@ export default {
   getViewLogout,
   getViewPasswordRecovery,
   getViewResetPassword,
-  getViewChangeRole,
+  getViewChangeRol,
 };

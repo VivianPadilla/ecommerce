@@ -1,5 +1,6 @@
 import { createhash, isValidPassword } from "../../utils.js";
 import { userModel } from "../models/user.model.js";
+import logger from "../../helper/logger/index.js";
 
 const addUser = async (user) => {
   try {
@@ -39,15 +40,12 @@ const createSession = async (user) => {
 
 const getUser = async (userId) => {
   try {
-    if (!userId) {
-      throw new Error("Falta el id del usuario");
-    }
-    const userFound = await userModel
+    const user = await userModel
       .findById(userId)
       .populate("cart")
       .lean();
-    if (userFound !== null) {
-      return userFound;
+    if (user !== null) {
+      return user;
     } else {
       throw new Error("No se encontro el usuario");
     }
@@ -60,14 +58,14 @@ const getUser = async (userId) => {
 
 const putUserByEmail = async (emailUser, newPassword) => {
   try {
-    const userFounded = await userModel.findOne({ email: emailUser });
-    if (userFounded === null) {
+    const user = await userModel.findOne({ email: emailUser });
+    if (user === null) {
       throw new Error("El correo no existe");
     }
 
     const password = newPassword.password;
 
-    if (isValidPassword(userFounded, newPassword.password)) {
+    if (isValidPassword(user, newPassword.password)) {
       throw new Error("No se puede establecer la misma contraseña anterior");
     }
 
@@ -90,8 +88,8 @@ const putUserByEmail = async (emailUser, newPassword) => {
 
 const getUserByEmail = async (emailUser) => {
   try {
-    const userFounded = await userModel.findOne({ email: emailUser });
-    if (userFounded === null) {
+    const user = await userModel.findOne({ email: emailUser });
+    if (user === null) {
       throw new Error("El correo no existe");
     }
   } catch (error) {
@@ -101,55 +99,36 @@ const getUserByEmail = async (emailUser) => {
   }
 }
 
-const putUserRole = async (userId) => {
+const putUserRol = async (userId) => {
   try {
-    const userFound = await userModel.findById(userId);
-    if (userFound === null) {
-      throw new Error("El usuario no existe");
-    }
-    const userRole = userFound.role;
-    let newRole = "";
-    let userRoleUpdated = "";
-
-    if (
-      userRole.toUpperCase() !== "USER" &&
-      userRole.toUpperCase() !== "USER_PREMIUM"
-    ) {
-      throw new Error(
-        "El rol del usuario proporcionado no puede ser cambiado (solo: User y User_premium)"
-      );
-    }
-
-    if (userRole.toUpperCase() === "USER" && userFound.statusDocuments) {
-      newRole = "User_premium";
-
-      userRoleUpdated = await userModel.updateOne(
+    const user = await userModel.findById(userId);
+    const userRol = user.rol;
+    let newRol = "";
+    let userRolUpdated = "";
+    if (userRol === "user" && user.statusDocuments) {
+      newRol = "User_premium";
+      userRolUpdated = await userModel.updateOne(
         { _id: userId },
-        { role: newRole }
+        { rol: newRol }
       );
-    } else if (userRole.toUpperCase() === "USER_PREMIUM") {
-      newRole = "User";
+    } else if (userRol.toUpperCase() === "USER_PREMIUM") {
+      newRol = "user";
 
-      userRoleUpdated = await userModel.updateOne(
+      userRolUpdated = await userModel.updateOne(
         { _id: userId },
         {
-          role: newRole,
+          rol: newRol,
           statusDocuments: false,
           documents: [],
         }
       );
     } else {
-      throw new Error("Todos los documentos solicitados no fueron cargados");
+      throw new Error("Faltan documentos");
     }
 
-    if (userRoleUpdated.n !== 0) {
-      return userRoleUpdated;
-    } else {
-      throw new Error("Ocurrio un problema al actualizar el rol");
-    }
   } catch (error) {
-    logger.error("Error en userManager putUserRole(): ", error);
-    logger.debug("Error en userManager putUserRole(): ", error);
+    logger.error("Error en userManager putUserRol(): ", error);
+    logger.debug("Error en userManager putUserRol(): ", error);
     throw new Error(error);
   }
 }
@@ -157,54 +136,46 @@ const putUserRole = async (userId) => {
 const postDocumentsUser = async (
   userId,
   {
-    fileProfilePicture,
-    fileProductPicture,
-    fileIdentification,
-    fileAddress,
-    fileStatementAccount,
+    profile_image,
+    product_image,
+    identification_document,
+    address_document,
+    statement_account_document,
   }
 ) => {
   try {
     const user = await userModel.findById(userId);
-
     if (user === null) {
       throw new Error("Ups! El usuario no existe");
     }
-
-    if (fileProfilePicture) {
-      const { filename, path } = fileProfilePicture[0];
+    if (profile_image) {
+      const { filename, path } = profile_image[0];
       user.documents.push({ name: filename, reference: path });
     }
-
-    if (fileProductPicture) {
-      const { filename, path } = fileProductPicture[0];
+    if (product_image) {
+      const { filename, path } = product_image[0];
       user.documents.push({ name: filename, reference: path });
     }
-
-    if (fileIdentification) {
-      const { filename, path } = fileIdentification[0];
+    if (identification_document) {
+      const { filename, path } = identification_document[0];
       user.documents.push({ name: filename, reference: path });
     }
-
-    if (fileAddress) {
-      const { filename, path } = fileAddress[0];
+    if (address_document) {
+      const { filename, path } = address_document[0];
       user.documents.push({ name: filename, reference: path });
     }
-
-    if (fileStatementAccount) {
-      const { filename, path } = fileStatementAccount[0];
+    if (statement_account_document) {
+      const { filename, path } = statement_account_document[0];
       user.documents.push({ name: filename, reference: path });
     }
-
     user.statusDocuments =
-      !!fileIdentification && !!fileAddress && !!fileStatementAccount;
-
+      !!identification_document && !!address_document && !!statement_account_document;
     const userUpdated = await user.save();
 
     return userUpdated;
   } catch (error) {
-    logger.error("Error en productManager postDocumentsUser(): ", error);
-    logger.debug("Error en productManager postDocumentsUser(): ", error);
+    logger.error("Error en userManager postDocumentsUser(): ", error);
+    logger.debug("Error en userManager postDocumentsUser(): ", error);
     throw new Error(error);
   }
 }
@@ -215,6 +186,6 @@ export default {
   getUser,
   putUserByEmail,
   getUserByEmail,
-  putUserRole,
+  putUserRol,
   postDocumentsUser,
 };

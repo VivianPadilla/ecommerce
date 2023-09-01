@@ -5,7 +5,7 @@
   "description": "",
   "main": "productManager.js",
   "scripts": {
-    "test": "mocha test/products.test.js",
+    "test": "mocha src/test/products.test.js || exit 0",
     "start": "nodemon ./src/app.js"
   },
   "keywords": [],

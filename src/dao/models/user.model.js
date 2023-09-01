@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const usersCollection = "Users";
+const usersCollection = "users";
 
 const userSchema = new mongoose.Schema({
   firstName: String,
@@ -10,11 +10,11 @@ const userSchema = new mongoose.Schema({
   password: String,
   rol: {
     type: String,
-    default: "User",
+    default: "user",
   },
   cart: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "Carts",
+    ref: "carts",
   },
   documents: {
     type: [

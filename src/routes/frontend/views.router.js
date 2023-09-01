@@ -11,7 +11,7 @@ router.get('/logout', viewsController.getViewLogout);
 router.get('/register', viewsController.getViewRegister);
 router.get('/password-recovery', viewsController.getViewPasswordRecovery);
 router.get('/reset-password/:token/:email', viewsController.getViewResetPassword);
-router.get('/change-role', viewsController.getViewChangeRole);
+router.get('/change-rol', viewsController.getViewChangeRol);
 
 
 export default router;

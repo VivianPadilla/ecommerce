@@ -1,8 +1,10 @@
 const cartId = document.currentScript.getAttribute("data-user-cart-id");
 const products = document.querySelector('#products')
 
+console.log("");
+
 document.getElementById("buy-now").addEventListener("click", async () => {
-	const response = await fetch(`http://localhost:8080/api/carts/${cartId}/purchase`, {
+	const response = await fetch(`/api/carts/${cartId}/purchase`, {
 		method: "POST",
 	});
 	if (response.status === 200) {
@@ -11,7 +13,7 @@ document.getElementById("buy-now").addEventListener("click", async () => {
 		alert("Error al realizar la compra");
 	}
 
-	const responseTicket = await fetch(`http://localhost:8080/api/tickets`, {
+	const responseTicket = await fetch(`/api/tickets`, {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",

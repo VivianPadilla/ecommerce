@@ -21,11 +21,11 @@ const getProducts = async (req, res) => {
     const prevLink =
       products.prevPage === null
         ? null
-        : `http://localhost:8080/api/products?page=${products.page - 1}`;
+        : `/api/products?page=${products.page - 1}`;
     const nextLink =
       products.nextPage === null
         ? null
-        : `http://localhost:8080/api/products?page=${products.page + 1}`;
+        : `/api/products?page=${products.page + 1}`;
     return res.status(200).send({
       status: "success",
       payload: products.docs,
@@ -95,11 +95,11 @@ const deleteProduct = async (req, res) => {
   try {
     const productId = req.params.pid;
     const userEmail = req.session.user.email;
-    const userRole = req.session.user.role;
+    const userRol = req.session.user.rol;
     const response = await productManager.deleteProduct(
       productId,
       userEmail,
-      userRole
+      userRol
     );
     socketServer.emit("productDeleted", response[1]);
     return res

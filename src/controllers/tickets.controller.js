@@ -1,4 +1,5 @@
 import ticketManager from "../dao/dataBaseManager/ticketManager.js";
+import logger from "../helper/logger/index.js";
 
 const getTicket = async (req, res) => {
   try {

@@ -1,4 +1,5 @@
 import chatManager from "../dao/dataBaseManager/chatManager.js";
+import logger from "../helper/logger/index.js";
 
 const getMessages = async (req, res) => {
   try {

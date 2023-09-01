@@ -67,14 +67,14 @@ const updateProduct = async (productId, product) => {
   }
 };
 
-const deleteProduct = async (productId, userEmail, userRole) => {
+const deleteProduct = async (productId, userEmail, userRol) => {
   try {
     const product = await productModel.findById(productId);
     if (!product) {
       throw new Error(productNotExist);
     }
     if (
-      userRole.toUpperCase() === "ADMIN" ||
+      userRol.toUpperCase() === "ADMIN" ||
       product.owner === userEmail
     ) {
       const response = await productModel.deleteOne({ _id: productId });

@@ -39,7 +39,6 @@ const addCart = async () => {
 const addProductToCart = async (cartId, productId, loggedUserEmail) => {
   try {
     const product = await productManager.getProduct(productId);
-
     if (product.owner === loggedUserEmail) {
       throw new Error("No puedes agregar un producto que es de tu propiedad");
     }

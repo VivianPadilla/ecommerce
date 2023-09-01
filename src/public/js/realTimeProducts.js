@@ -1,4 +1,5 @@
 const socket = io();
+const products = document.querySelector('#products')
 
 socket.on("productAdded", (product) => {
   const container = document.getElementById("container");
@@ -84,7 +85,7 @@ document
       images: [images],
     };
 
-    const response = await fetch("http://localhost:8080/api/products", {
+    const response = await fetch("/api/products", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -106,7 +107,7 @@ document
     event.preventDefault();
     const productId = document.getElementById("productId").value;
     const response = await fetch(
-      `http://localhost:8080/api/products/${productId}`,
+      `/api/products/${productId}`,
       {
         method: "DELETE",
       }
@@ -139,4 +140,8 @@ prevPageButton.addEventListener("click", () => {
 nextPageButton.addEventListener("click", () => {
   window.location.href = `/realtimeproducts?page=${parseInt(page) + 1
     }`;
+});
+
+products.addEventListener("click", () => {
+  window.location.replace("/products");
 });

@@ -1,4 +1,4 @@
-const registerUser = document.querySelector('#form-register')
+const addUser = document.querySelector('#form-register')
 const login = document.querySelector('#login')
 
 const firstName = document.querySelector('#first-name')
@@ -7,11 +7,11 @@ const email = document.querySelector('#email')
 const age = document.querySelector('#age')
 const password = document.querySelector('#password')
 
-registerUser.addEventListener('submit', async (event) => {
+addUser.addEventListener('submit', async (event) => {
   event.preventDefault();
 
   // cart
-  const cartId = await fetch("http://localhost:8080/api/carts", {
+  const cartId = await fetch("/api/carts", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -29,9 +29,7 @@ registerUser.addEventListener('submit', async (event) => {
     password: password.value,
     cart: cart.message._id,
   }
-  console.log('userRegister', userRegister)
-
-  const response = await fetch("http://localhost:8080/api/sessions/register", {
+  const response = await fetch("/api/sessions/register", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -39,9 +37,6 @@ registerUser.addEventListener('submit', async (event) => {
     body: JSON.stringify(userRegister),
   }
   );
-
-  console.log('response', response)
-
   const responseData = await response.json();
   if (responseData.status === "success") {
     window.location.replace("/login");

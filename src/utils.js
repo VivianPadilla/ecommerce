@@ -33,14 +33,14 @@ export const getMockProduct = () => {
 function determinarCarpetaDeDestino(req, file, cb) {
   let carpetaDestino = `${__dirname}/uploads`;
 
-  if (file.fieldname === "file-profile-picture") {
+  if (file.fieldname === "profile_image") {
     carpetaDestino += "/profiles";
-  } else if (file.fieldname === "file-product-picture") {
+  } else if (file.fieldname === "product_image") {
     carpetaDestino += "/products";
   } else if (
-    file.fieldname === "file-identification" ||
-    file.fieldname === "file-address" ||
-    file.fieldname === "file-statement-account"
+    file.fieldname === "identification_document" ||
+    file.fieldname === "address_document" ||
+    file.fieldname === "statement_account_document"
   ) {
     carpetaDestino += "/documents";
   } else {

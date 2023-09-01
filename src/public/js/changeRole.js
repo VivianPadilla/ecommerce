@@ -1,35 +1,30 @@
-const btnChangeRole = document.querySelector("#btn-change-role");
-const formChangeRol = document.querySelector("#form-change-role");
+const btnChangeRol = document.querySelector("#btn-change-rol")
+const formChangeRol = document.querySelector("#form-change-rol")
 
-const userId = document.currentScript.getAttribute("data-user-id");
-const userRole = document.currentScript.getAttribute("data-user-role");
+const userId = document.currentScript.getAttribute("data-user-id")
+const userRol = document.currentScript.getAttribute("data-user-rol")
+const products = document.querySelector('#products')
 
-btnChangeRole.addEventListener("click", async () => {
-  const document = "";
-  if (userRole === "User") {
-    const formData = new FormData(formChangeRol);
-
+btnChangeRol.addEventListener("click", async () => {
+  let document = ""
+  if (userRol === "user") {
+    const formData = new FormData(formChangeRol)
     const files = await fetch(
-      `http://localhost:8080/api/users/${userId}/documents`,
+      `/api/users/${userId}/documents`,
       {
         method: "POST",
         body: formData,
       }
     );
 
-    console.log('files', files)
-
-    document = await files.json();
-
-    console.log('documents', document)
-
+    document = await files.json()
     if (document.status !== "success") {
       alert("Ups! no se pudieron cargar los archivos")
     }
   }
 
-  const roleId = await fetch(
-    `http://localhost:8080/api/users/premium/${userId}`,
+  const rolId = await fetch(
+    `/api/users/premium/${userId}`,
     {
       method: "PUT",
       headers: {
@@ -38,13 +33,16 @@ btnChangeRole.addEventListener("click", async () => {
     }
   );
 
-  const responseRoleId = await roleId.json();
-
-  if (responseRoleId.status !== "success") {
+  const responseRolId = await rolId.json()
+  if (responseRolId.status !== "success") {
     alert("Ups! todos los archivos son obligatorios")
   }
 
-  if (responseRoleId.status === "success" && documents.status === "success") {
+  if (responseRolId.status === "success" && document.status === "success") {
     window.location.replace("/logout");
   }
+});
+
+products.addEventListener("click", () => {
+  window.location.replace("/products");
 });

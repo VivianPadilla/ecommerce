@@ -10,6 +10,5 @@ router.use("/", frontendRouter);
 router.use("/api", backendRouter);
 router.use("/mock-products", mockRouter);
 router.use("/log", logRouter);
-router.use("/mail-reset-password", mailRouter);
 
 export default router;

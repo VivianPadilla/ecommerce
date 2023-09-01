@@ -19,7 +19,6 @@ Swal.fire({
   },
   allowOutsideClick: false,
 }).then((result) => {
-  console.log('result', result)
   user = result.value;
 });
 
@@ -32,13 +31,11 @@ sendMessage.addEventListener('click', (event) => {
   });
   // message.value = ''
   formChat.reset();
-  console.log('sendMessage', user, message.value)
 });
 
 socket.on("messagesLogs", (data) => {
   let log = document.getElementById("messageLogs");
   let messages = "";
-  console.log('messagesLogs', data)
   data.forEach((message) => {
     messages =
       messages + `
@@ -54,7 +51,6 @@ socket.on("messagesLogs", (data) => {
         </div>
       </div>`;
   });
-  console.log('messages', messages)
   log.innerHTML = messages;
 });
 
