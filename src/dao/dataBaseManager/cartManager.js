@@ -1,5 +1,6 @@
 import { cartModel } from "../models/cart.model.js";
 import productManager from "./productManager.js";
+import mongoose from "mongoose";
 
 const getCarts = async () => {
   try {
@@ -12,11 +13,26 @@ const getCarts = async () => {
 
 const getProductsFromCart = async (cartId) => {
   try {
-    const cartFound = await cartModel
+    let cartFound = await cartModel
       .findById(cartId)
       .populate("products.product");
     if (cartFound !== null) {
-      return cartFound.products;
+      return cartFound.products.map((product) => {
+        return {
+          product: {
+            code: product.product.code,
+            title: product.product.title,
+            description: product.product.description,
+            price: product.product.price,
+            stock: product.product.stock,
+            category: product.product.category,
+            status: product.product.status,
+            owner: product.product.owner,
+            images: product.product.images,
+          },
+          quantity: product.quantity
+        };
+      });
     } else {
       throw new Error("El carrito no existe.");
     }
