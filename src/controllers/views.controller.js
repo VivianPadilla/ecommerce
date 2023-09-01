@@ -92,7 +92,6 @@ const getViewChat = async (req, res) => {
 const getViewCart = async (req, res) => {
   const cartId = req.params.cid;
   const carts = await cartManager.getProductsFromCart(cartId);
-  console.log("----> carts: ", carts);
   res.render("carts", {
     carts,
     cartId,

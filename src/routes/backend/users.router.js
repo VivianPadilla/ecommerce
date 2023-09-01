@@ -3,7 +3,7 @@ import { uploader } from "../../utils.js";
 import { Router } from "express";
 var router = Router();
 
-router.get('/api/users', usersController.getUser);
+router.get('/', usersController.getUser);
 router.put('/premium/:uid', usersController.putUsersRol);
 router.post('/:uid/documents', uploader.fields([
 	{ name: "profile_image", maxCount: 1 },

@@ -39,7 +39,7 @@ const getUser = async (req, res) => {
   try {
     if (req.isAuthenticated()) {
       const currentUserId = req.session.passport.user;
-      const getUserResponse = await userManager.getOneUser(currentUserId);
+      const getUserResponse = await userManager.getUser(currentUserId);
       const currentUserDTO = new CurrentUserDTO(getUserResponse);
       res.status(200).send(currentUserDTO);
     } else {
